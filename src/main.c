@@ -3,6 +3,9 @@
 
 void main (void)
 {
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+	printf("Output of all three figure numbers:\n");
+	for(int i = 100; i < 1000; i++)
+	{
+			printf("%d\n", i);
+	}
 }
